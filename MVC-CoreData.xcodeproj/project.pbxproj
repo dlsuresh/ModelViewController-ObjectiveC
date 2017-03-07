@@ -14,6 +14,8 @@
 		F6C4B7F51E654B1E0032BFAF /* MVC_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6C4B7F31E654B1E0032BFAF /* MVC_CoreData.xcdatamodeld */; };
 		F6C4B7F71E654B1E0032BFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C4B7F61E654B1E0032BFAF /* Assets.xcassets */; };
 		F6C4B7FA1E654B1E0032BFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C4B7F81E654B1E0032BFAF /* LaunchScreen.storyboard */; };
+		F6C4B8031E654B340032BFAF /* ModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C4B8021E654B340032BFAF /* ModelView.m */; };
+		F6C4B8061E65540F0032BFAF /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C4B8051E65540F0032BFAF /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		F6C4B7F61E654B1E0032BFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6C4B7F91E654B1E0032BFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6C4B7FB1E654B1E0032BFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C4B8011E654B340032BFAF /* ModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelView.h; sourceTree = "<group>"; };
+		F6C4B8021E654B340032BFAF /* ModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelView.m; sourceTree = "<group>"; };
+		F6C4B8041E65540F0032BFAF /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		F6C4B8051E65540F0032BFAF /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				F6C4B7EB1E654B1E0032BFAF /* AppDelegate.m */,
 				F6C4B7ED1E654B1E0032BFAF /* ViewController.h */,
 				F6C4B7EE1E654B1E0032BFAF /* ViewController.m */,
+				F6C4B8041E65540F0032BFAF /* TableViewCell.h */,
+				F6C4B8051E65540F0032BFAF /* TableViewCell.m */,
+				F6C4B8011E654B340032BFAF /* ModelView.h */,
+				F6C4B8021E654B340032BFAF /* ModelView.m */,
 				F6C4B7F01E654B1E0032BFAF /* Main.storyboard */,
 				F6C4B7F61E654B1E0032BFAF /* Assets.xcassets */,
 				F6C4B7F81E654B1E0032BFAF /* LaunchScreen.storyboard */,
@@ -154,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C4B7EF1E654B1E0032BFAF /* ViewController.m in Sources */,
+				F6C4B8061E65540F0032BFAF /* TableViewCell.m in Sources */,
 				F6C4B7F51E654B1E0032BFAF /* MVC_CoreData.xcdatamodeld in Sources */,
+				F6C4B8031E654B340032BFAF /* ModelView.m in Sources */,
 				F6C4B7EC1E654B1E0032BFAF /* AppDelegate.m in Sources */,
 				F6C4B7E91E654B1E0032BFAF /* main.m in Sources */,
 			);
